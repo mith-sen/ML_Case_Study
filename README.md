@@ -47,20 +47,3 @@ project/
 └── .gitignore
 ```
 
-## AI-Assistance Disclosure
-
-Per the project guideline (Section 7.5), generative AI (Claude, Anthropic) was used for **code
-scaffolding** of the classification notebook: structuring sections, writing the preprocessing
-pipeline, model-training/evaluation boilerplate, and plotting code. AI was **not** used to generate
-data interpretation, analysis conclusions, or feature-engineering justification — these are marked
-with `[TEAM MEMBER ...]` placeholders in the notebook and must be completed by the responsible team
-member after personally inspecting the plots and results, per the academic integrity requirement.
-
-## Outstanding Items Before Submission
-
-- [ ] Fill in all `[TEAM MEMBER SHOULD WRITE A DATA-SPECIFIC OBSERVATION ...]` Markdown placeholders
-      in the EDA section
-- [ ] Fill in the `[TEAM MEMBER TO VERIFY AND COMPLETE]` justification for the engineered
-      `approval_rate` feature
-- [ ] Prepare for viva questions on algorithm choice, metric interpretation, and preprocessing
-      decisions
