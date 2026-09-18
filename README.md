@@ -25,7 +25,7 @@ of the 23CSE301 Machine Learning capstone project.
 9. Support Vector Regressor (SVR) 
 10. K-Nearest Neighbors Regressor
 
-#Classification
+# Classification
 
 1. Logistic Regression
 2. K-Nearest Neighbors (KNN)
