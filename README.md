@@ -8,12 +8,24 @@ of the 23CSE301 Machine Learning capstone project.
 ## Dataset
 
 
-- File: `data/classification.csv, data.regression.csv`
-- 4,424 rows, 37 columns (36 features + 1 target)
-- Target column: `Target` — three classes (`Dropout`, `Enrolled`, `Graduate`)
-- No missing values, no duplicate rows (see the Dataset Audit section of the notebook)
+- File: `data/classification.csv, data/regression.csv`
 
 ## Models Implemented (Review 1, Part A)
+
+# Regression
+
+1. Linear Regression 
+2. Ridge Regression
+3. Lasso Regression
+4. ElasticNet Regression 
+5. Polynomial Regression 
+6. Decision Tree Regressor
+7. Random Forest Regressor 
+8. Gradient Boosting Regressor 
+9. Support Vector Regressor (SVR) 
+10. K-Nearest Neighbors Regressor
+
+#Classification
 
 1. Logistic Regression
 2. K-Nearest Neighbors (KNN)
@@ -29,6 +41,7 @@ Each model is evaluated with Accuracy, Weighted F1-score, and a Confusion Matrix
 
 ```bash
 pip install -r requirements.txt
+jupyter notebook notebooks/regression.ipynb
 jupyter notebook notebooks/classification.ipynb
 ```
 
@@ -39,11 +52,13 @@ Run all cells top to bottom. The notebook is reproducible (`random_state=42` use
 ```
 project/
 ├── data/
-│   └── classification.csv
+    └── data.csv
+│   └── SeoulBikeData.csv
 ├── notebooks/
-│   └── classification.ipynb
+    └── classification.ipynb
+    └── regression.ipyn
 ├── requirements.txt
 ├── README.md
-└── .gitignore
+
 ```
 
