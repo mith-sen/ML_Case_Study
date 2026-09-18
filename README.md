@@ -2,13 +2,13 @@
 
 ## Scope
 
-This part of the repository covers the **Classification track** only, as required for Review 1 Part A
-of the 23CSE301 Machine Learning capstone project. Regression and Clustering tracks (and Classification
-Part B) are out of scope here and are owned by other team members / covered in Review 2.
+This part of the repository covers the **Regression and Classification track** only, as required for Review 1 Part A
+of the 23CSE301 Machine Learning capstone project. 
 
 ## Dataset
 
-- File: `data/classification.csv`
+
+- File: `data/classification.csv, data.regression.csv`
 - 4,424 rows, 37 columns (36 features + 1 target)
 - Target column: `Target` — three classes (`Dropout`, `Enrolled`, `Graduate`)
 - No missing values, no duplicate rows (see the Dataset Audit section of the notebook)
